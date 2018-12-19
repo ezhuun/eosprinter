@@ -26,10 +26,16 @@ This project was build with Node.js
 
 	- 필요에 따라 위 배치프로그램을 windows 시작프로그램에 등록하여 부팅시 자동실행되도록 설정합니다
 
+## usb-to-serial Driver
+
+	- /setup-files/PL2303_Prolific_DriverInstaller_v1200/PL2303-Prolific_DriverInstaller_v1200.exe
+
 ## Receipt Printer Driver
 
 	- /setup_files/win7_8_EasySet_MiniPrinter_v2.3.3/EasySet_MiniPrinter_WD_win7_8_v2.3.3.exe
+	
+	- Port "COM3"
 
-## usb-to-serial Driver
+	- Baudrate "115200"
 
-	- /setup-files/CH340_USB_driver_EN/USB_driver_EN.exe
+	- 프린터 설치 후 프린트 오류가 날 경우 장치관리자에 포트가 정상적으로 인식되었는지 확인 후 드라이버 업데이트를 시도해보세요.
