@@ -1,0 +1,22 @@
+{
+  "name": "eosprinter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-timeout": "^1.9.0",
+    "cors": "^2.8.5",
+    "escpos": "^2.4.10",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "util": "^0.11.1"
+  }
+}

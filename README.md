@@ -2,9 +2,9 @@ This project was build with Node.js
 
 ## SETUP GUIDE
 
-Ⅰ. 위 프로젝트를 c:/nodejs/eosprinter 경로로 다운로드
+### Ⅰ. 위 프로젝트를 c:/nodejs/eosprinter 경로로 다운로드
 
-Ⅱ. nodejs 설치
+### Ⅱ. nodejs 설치
 
 	- /setup_files/node-v10.14.1-x64.msi
 
@@ -12,13 +12,13 @@ This project was build with Node.js
 
 	- 명령프롬포트에서 [ node -v ] 명령어로 설치유무 확인
 
-Ⅲ. 명령프롬포트(cmd) 명령어
+### Ⅲ. 명령프롬포트(cmd) 명령어
 
 	- cd c:/nodejs/eosprinter
 
 	- npm install
 
-Ⅳ. run.vbs 실행
+### Ⅳ. run.vbs 실행
 
 	- 설치 경로가 c:/nodejs/eosprinter 가 아닐 경우 실행되지 않습니다.
 
@@ -32,4 +32,4 @@ This project was build with Node.js
 
 ## usb-to-serial Driver
 
-	- /setup-files/CH340_USB_driver_EN/USB_driver_EN.exe# eosprinter
+	- /setup-files/CH340_USB_driver_EN/USB_driver_EN.exe
