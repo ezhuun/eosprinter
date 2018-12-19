@@ -18,6 +18,8 @@ This project was build with Node.js
 
 	- npm install
 
+	- npm install serialport --save
+
 ### Ⅳ. run.vbs 실행
 
 	- 설치 경로가 c:/nodejs/eosprinter 가 아닐 경우 실행되지 않습니다.
@@ -28,7 +30,7 @@ This project was build with Node.js
 
 ## usb-to-serial Driver
 
-	- /setup-files/PL2303_64bit_Installer.exe
+	- /setup-files/PL2303_Prolific_DriverInstaller_v1200/PL2303-Prolific_DriverInstaller_v1200.exe
 
 ## Receipt Printer Driver
 
@@ -36,6 +38,6 @@ This project was build with Node.js
 	
 	- Port "COM3"
 
-	- Baudrate "115200"
+	- Baudrate "9600"
 
 	- 프린터 설치 후 프린트 오류가 날 경우 장치관리자에 포트가 정상적으로 인식되었는지 확인 후 드라이버 업데이트를 시도해보세요.
