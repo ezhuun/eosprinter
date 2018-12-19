@@ -28,7 +28,7 @@ This project was build with Node.js
 
 ## usb-to-serial Driver
 
-	- /setup-files/PL2303_Prolific_DriverInstaller_v1200/PL2303-Prolific_DriverInstaller_v1200.exe
+	- /setup-files/PL2303_64bit_Installer.exe
 
 ## Receipt Printer Driver
 
