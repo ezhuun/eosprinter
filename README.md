@@ -22,11 +22,13 @@ This project was build with Node.js
 
 ### Ⅳ. run.vbs 실행
 
-	- 설치 경로가 c:/nodejs/eosprinter 가 아닐 경우 실행되지 않습니다.
+	- 설치 경로가 c:/nodejs/eosprinter 가 아닐 경우 실행되지 않습니다
 
 	- 실행 확인 방법은 작업관리자 Node.js: Server-side JavaScript 프로세스 유무로 확인
 
 	- 필요에 따라 위 배치프로그램을 windows 시작프로그램에 등록하여 부팅시 자동실행되도록 설정합니다
+
+	- C:\Users\user_name\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup 경로로 run.vbs파일의 바로가기 파일을 등록 (반드시 바로가기 파일이여야 합니다)
 
 ## usb-to-serial Driver
 
@@ -40,4 +42,4 @@ This project was build with Node.js
 
 	- Baudrate "9600"
 
-	- 프린터 설치 후 프린트 오류가 날 경우 장치관리자에 포트가 정상적으로 인식되었는지 확인 후 드라이버 업데이트를 시도해보세요.
+	- 프린터 설치 후 프린터가 정상적인 작동을 안 할 경우 장치관리자에 포트가 정상적으로 인식되었는지 확인 후 드라이버 업데이트를 시도해보세요
