@@ -4,7 +4,8 @@ os      = require('os');
 path    = require('path');
 express = require('express');
 escpos  = require('escpos');
- 
+serialport = require('serialport');
+
 var bodyParser = require('body-parser');
 var timeout    = require('connect-timeout');
 var cors       = require('cors');
@@ -44,5 +45,4 @@ app.use("/", commsrvRest);
 
 var httpServer = http.createServer(app).listen(8080, function(){
 		console.log(" Server Started ");
-	});
-	
+});

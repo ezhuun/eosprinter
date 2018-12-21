@@ -34,11 +34,11 @@ This project was build with Node.js
 
 	- /setup-files/PL2303_Prolific_DriverInstaller_v1200/PL2303-Prolific_DriverInstaller_v1200.exe
 
+	- 장치관리자 - 포트 - Prolific ~ - 마우스우클릭 - 드라이버 업데이트 - 컴퓨터에서 드라이버 소프트웨어 검색 - 컴퓨터의 사용 가능한 드라이버 목록에서 직접 선택 - 디스크있음 - /setup_files/Profilic_Win8_x64_x86 폴더선택 후 업데이트 진행
+
 ## Receipt Printer Driver
 
 	- /setup_files/win7_8_EasySet_MiniPrinter_v2.3.3/EasySet_MiniPrinter_WD_win7_8_v2.3.3.exe
-	
-	- Port "COM3"
 
 	- Baudrate "9600"
 
